@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rclone-sync</title>
+  <style>
+    body {
+      max-width: 720px;
+      margin: 64px auto;
+      padding: 0 24px;
+      font-family: system-ui, sans-serif;
+      line-height: 1.8;
+      color: #243047;
+      background: #f7f9fc;
+    }
+    a { color: #155acb; }
+  </style>
+</head>
+<body>
+  <h1>rclone-sync</h1>
+  <p>由 CYuche 管理的個人檔案同步工具。</p>
+
+  <h2>用途</h2>
+  <p>
+    使用 Docker 中的 rclone，將使用者指定的本機資料夾或
+    FTP 伺服器檔案，傳送至使用者授權的 Google Drive。
+  </p>
+
+  <h2>Google Drive 授權</h2>
+  <p>
+    本工具透過 Google OAuth 取得授權，用於列出、建立及更新
+    Google Drive 檔案。若使用者啟用鏡像同步，
+    也可能刪除目的資料夾中來源已不存在的檔案。
+  </p>
+  <p>此網站僅提供工具說明，不提供檔案上傳或 Google 登入功能。</p>
+
+  <p><a href="privacy.html">隱私權政策</a></p>
+  <p>維護者：<a href="https://github.com/CYuche">CYuche</a></p>
+</body>
+</html>
